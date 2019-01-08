@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>vuepress</title>
+    <meta name="description" content="Vue 驱动的静态站点生成工具">
+    <link rel="icon" href="/logo.png">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#3eaf7c">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <link rel="apple-touch-icon" href="/icons/apple-touch-icon-152x152.png">
+  <link rel="mask-icon" href="/icons/safari-pinned-tab.svg" color="#3eaf7c">
+  <meta name="msapplication-TileImage" content="/icons/msapplication-icon-144x144.png">
+  <meta name="msapplication-TileColor" content="#000000">
+    
+    <link rel="preload" href="/assets/css/0.styles.0ce45036.css" as="style"><link rel="preload" href="/assets/js/app.a069e577.js" as="script"><link rel="preload" href="/assets/js/9.4365f5f2.js" as="script"><link rel="prefetch" href="/assets/js/10.f2ab69cd.js"><link rel="prefetch" href="/assets/js/11.3a653d8b.js"><link rel="prefetch" href="/assets/js/12.f5c592e4.js"><link rel="prefetch" href="/assets/js/13.1f62de97.js"><link rel="prefetch" href="/assets/js/14.c093d812.js"><link rel="prefetch" href="/assets/js/15.5f4fa661.js"><link rel="prefetch" href="/assets/js/16.031cf9b4.js"><link rel="prefetch" href="/assets/js/17.bc4eeb60.js"><link rel="prefetch" href="/assets/js/18.2e8841b7.js"><link rel="prefetch" href="/assets/js/19.87e74891.js"><link rel="prefetch" href="/assets/js/2.95476fbb.js"><link rel="prefetch" href="/assets/js/3.d0630898.js"><link rel="prefetch" href="/assets/js/4.a3811d34.js"><link rel="prefetch" href="/assets/js/5.c732289a.js"><link rel="prefetch" href="/assets/js/6.f952c424.js"><link rel="prefetch" href="/assets/js/7.b6277d8b.js"><link rel="prefetch" href="/assets/js/8.15644b90.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.0ce45036.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container no-sidebar"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-exact-active router-link-active"><!----> <span class="site-name">vuepress</span></a> <div class="links" style="max-width:nullpx;"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/guide/" class="nav-link">指南</a></div><div class="nav-item"><a href="/config/" class="nav-link">配置参考</a></div><div class="nav-item"><a href="/default-theme-config/" class="nav-link">默认主题配置</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <div class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/guide/" class="nav-link">指南</a></div><div class="nav-item"><a href="/config/" class="nav-link">配置参考</a></div><div class="nav-item"><a href="/default-theme-config/" class="nav-link">默认主题配置</a></div> <!----></nav>  <!----> </div> <div class="home"><div class="hero"><img src="/hero.png" alt="hero"> <h1>vuepress</h1> <p class="description">
+      Vue 驱动的静态站点生成工具
+    </p> <p class="action"><a href="/guide/" class="nav-link action-button">起步 →</a></p></div> <!----> <div class="content custom"><div style="text-align: center"><Bit></Bit></div> <div class="features"><div class="feature"><h2>简明优先</h2> <p>对以 markdown 为中心的项目结构，做最简化的配置，帮助你专注于创作。</p></div> <div class="feature"><h2>Vue 驱动</h2> <p>享用 Vue + webpack 开发环境，在 markdown 中使用 Vue 组件，并通过 Vue 开发自定义主题。</p></div> <div class="feature"><h2>性能高效</h2> <p>VuePress 将每个页面生成为预渲染的静态 HTML，每个页面加载之后，然后作为单页面应用程序(SPA)运行。</p></div></div> <h3 id="起步就像数-1-2-3-一样容易"><a href="#起步就像数-1-2-3-一样容易" aria-hidden="true" class="header-anchor">#</a> 起步就像数 1, 2, 3 一样容易</h3> <div class="language-bash line-numbers-mode"><pre class="language-bash"><code><span class="token comment"># 安装</span>
+yarn global add vuepress <span class="token comment"># 或 npm install -g vuepress</span>
+
+<span class="token comment"># 创建一个 markdown 文件</span>
+<span class="token keyword">echo</span> <span class="token string">'# Hello VuePress'</span> <span class="token operator">&gt;</span> README.md
+
+<span class="token comment"># 开始编写</span>
+vuepress dev
+
+<span class="token comment"># 构建为静态文件</span>
+vuepress build
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br></div></div><div class="warning custom-block"><p class="custom-block-title">兼容性注意事项</p> <p>VuePress 要求 Node.js &gt;= 8。</p></div></div> <div class="footer">
+    MIT Licensed | Copyright © 2018-present Evan You
+  </div></div> <!----></div></div>
+    <script src="/assets/js/app.a069e577.js" defer></script><script src="/assets/js/9.4365f5f2.js" defer></script>
+  </body>
+</html>
